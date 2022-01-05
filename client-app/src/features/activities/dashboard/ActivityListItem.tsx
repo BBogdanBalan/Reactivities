@@ -11,8 +11,7 @@ interface Props {
 export default function ActivityListItem({ activity }: Props) {
 
     return (
-
-        <Segment.Group>
+       <Segment.Group>
             <Segment>
                 <Item.Group>
                     <Item.Image size='tiny' circular src='/assets/user.png' />
@@ -42,8 +41,6 @@ export default function ActivityListItem({ activity }: Props) {
                 floated = 'right'
                 content='View'
                 />
-
-               
             </Segment>
         </Segment.Group>
     )
